@@ -56,7 +56,6 @@ section {
 }
 .grid {
   display: grid;
-
   padding: 20px;
 }
 .grid-two-col {
