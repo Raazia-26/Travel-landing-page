@@ -56,17 +56,20 @@ section {
 }
 .grid {
   display: grid;
-  grid-gap: 60px;
+
   padding: 20px;
 }
 .grid-two-col {
   grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
 }
 .grid-one-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 60px;
 }
 .grid-3-col {
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 60px;
 }
 .info_container {
   margin: 20px 30px;
@@ -78,10 +81,10 @@ section {
 .card-header.grid {
   grid-gap: 0;
   padding: 0;
+  grid-template-rows: 2fr;
 }
 .img_responsive {
-  width: 173px;
-  height: 176px;
+  width: 100%;
   display: block;
 }
 section h3 {
@@ -109,7 +112,6 @@ section h1 {
 }
 .card-footer {
   display: flex;
-
   justify-content: center;
   margin-bottom: 30px;
 }
@@ -200,6 +202,7 @@ footer a {
     font-size: 7px;
     padding: 8px 16px;
   }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -219,5 +222,6 @@ footer a {
   }
   section {
     margin: 0;
+    padding: 0;
   }
 }
