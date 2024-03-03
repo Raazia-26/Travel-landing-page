@@ -108,8 +108,12 @@ section h1 {
   padding: 30px;
 }
 .card-footer {
-  padding: 30px 74px;
+  display: flex;
+
+  justify-content: center;
+  margin-bottom: 30px;
 }
+
 section.secondary {
   background-color: #f8f8f8;
 }
@@ -126,9 +130,6 @@ section.secondary {
 .card h5 {
   font-size: 12px;
   margin: 0px;
-}
-.card a {
-  margin-top: 15px;
 }
 
 .btn {
