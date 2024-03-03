@@ -202,7 +202,6 @@ footer a {
   }
   .grid {
     grid-template-columns: 1fr;
-    padding: 0px 30px;
     grid-gap: 10px;
   }
   .info_container {
@@ -218,7 +217,7 @@ footer a {
   .embed {
     aspect-ratio: 16/9;
   }
-  .card-footer {
-    padding: 28px 125px;
+  section {
+    margin: 0;
   }
 }
